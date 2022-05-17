@@ -1,0 +1,8 @@
+Package: love.litten.vetoggle
+Name: VeToggle
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Temporarily disable logging for Vē
+Maintainer: Litten
+Author: Litten
+Section: Control Center (Modules)

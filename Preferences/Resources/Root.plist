@@ -1,0 +1,317 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1//EN" "http://www.apple.com/DTDs/PropertyList-1.dtd">
+<plist version="1">
+<dict>
+	<key>items</key>
+	<array>
+	
+		<dict>
+			<key>cellClass</key>
+			<string>DuoTwitterCell</string>
+			<key>firstLabel</key>
+			<string>🌸 Litten</string>
+			<key>firstAccount</key>
+			<string>schneelittchen</string>
+			<key>secondLabel</key>
+			<string>taki</string>
+			<key>secondAccount</key>
+			<string>74k1_</string>
+			<key>height</key>
+			<real>57</real>
+		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Protection</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>love.litten.vepreferences</string>
+			<key>key</key>
+			<string>biometricProtection</string>
+			<key>label</key>
+			<string>Use Biometric Protection</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Logs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>love.litten.vepreferences</string>
+			<key>key</key>
+			<string>logMessagesWithoutContent</string>
+			<key>label</key>
+			<string>Log Messages Without Content</string>
+		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Blocked Bundle Identifiers</string>
+ 			<key>detail</key>
+ 			<string>VeBlockedBundleIdentifiersListController</string>
+ 		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Excluded Phrases</string>
+ 			<key>detail</key>
+ 			<string>VeExcludedPhrasesListController</string>
+ 		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Attachments</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.vepreferences</string>
+			<key>key</key>
+			<string>saveAttachments</string>
+			<key>label</key>
+			<string>Save Attachments</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Household</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBStepperTableCell</string>
+			<key>default</key>
+			<real>1</real>
+			<key>defaults</key>
+			<string>love.litten.vepreferences</string>
+			<key>key</key>
+			<string>entryLimit</string>
+			<key>label</key>
+			<string>Limit to %i Entries</string>
+			<key>max</key>
+			<real>5000</real>
+			<key>min</key>
+			<real>1</real>
+			<key>singularLabel</key>
+			<string>No Entry Limit</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.vepreferences</string>
+			<key>key</key>
+			<string>deleteLogsAutomatically</string>
+			<key>label</key>
+			<string>Automatically Delete Logs</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBStepperTableCell</string>
+			<key>default</key>
+			<real>31</real>
+			<key>defaults</key>
+			<string>love.litten.vepreferences</string>
+			<key>key</key>
+			<string>deleteLogsAutomaticallyAfterDays</string>
+			<key>label</key>
+			<string>Delete Logs After %i Days</string>
+			<key>max</key>
+			<real>100</real>
+			<key>min</key>
+			<real>1</real>
+			<key>singularLabel</key>
+			<string>Delete Logs After One Day</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Formats</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string>HH:mm</string>
+			<key>placeholder</key>
+			<string>HH:mm</string>
+			<key>defaults</key>
+			<string>love.litten.vepreferences</string>
+			<key>label</key>
+			<string>Time Format:</string>
+			<key>key</key>
+			<string>timeFormat</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string>dd.MM.YYYY</string>
+			<key>placeholder</key>
+			<string>dd.MM.YYYY</string>
+			<key>defaults</key>
+			<string>love.litten.vepreferences</string>
+			<key>label</key>
+			<string>Date Format:</string>
+			<key>key</key>
+			<string>dateFormat</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Other Options</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>action</key>
+			<string>respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Reset Preferences</string>
+			<key>action</key>
+			<string>resetPrompt</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Reset Logs</string>
+			<key>action</key>
+			<string>resetLogsPrompt</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Credits</string>
+ 			<key>detail</key>
+ 			<string>VECreditsSubPreferencesListController</string>
+ 			<key>VESub</key>
+ 			<string>sub/Credits</string>
+ 		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>You might like:</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Liddell</string>
+			<key>subtitle</key>
+			<string>Little Notification Banners</string>
+			<key>icon</key>
+			<string>featured/Liddell.png</string>
+			<key>url</key>
+			<string>https://repo.litten.love/depictions/Liddell/</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Diary</string>
+			<key>subtitle</key>
+			<string>Windows 10/11 Lock Screen Replica</string>
+			<key>icon</key>
+			<string>featured/Diary.png</string>
+			<key>url</key>
+			<string>https://repo.litten.love/depictions/Diary/</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Vē by Litten and taki</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Discord</string>
+			<key>subtitle</key>
+			<string>Chat with us 👾</string>
+			<key>url</key>
+			<string>https://discord.gg/tKUPZrS7ve</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Source Code</string>
+			<key>subtitle</key>
+			<string>GitHub 💌</string>
+			<key>url</key>
+			<string>https://github.com/schneelittchen/Ve</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Donate to Litten</string>
+			<key>subtitle</key>
+			<string>Appreciated 💝</string>
+			<key>url</key>
+			<string>https://paypal.me/Litteeen</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<key>PSGroupCell</key>
+			<key>footerText</key>
+			<string>in loving memory of my cat Nena</string>
+			<key>isStaticText</key>
+			<true/>
+			<key>footerAlignment</key>
+			<real>1</real>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>Vē</string>
+</dict>
+</plist>
